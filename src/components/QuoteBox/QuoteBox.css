@@ -12,6 +12,7 @@
     border-radius: 8px;
     opacity: 0;
     animation: fadeInOut 10s infinite;
+    font-size: 24px;
   }
 
   @keyframes fadeInOut {

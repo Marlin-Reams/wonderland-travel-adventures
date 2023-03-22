@@ -1,17 +1,9 @@
-.Home {
+.bg{
     background-image: url('./HomeBG-3.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     position: relative;
-  }
+    z-index: -1;
 
-  .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(51, 51, 51, 0.8);
-    z-index: 1;
-    opacity: 0.5;
   }

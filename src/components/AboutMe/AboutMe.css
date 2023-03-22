@@ -6,15 +6,16 @@
 
   .about-me-container {
     position: fixed;
-    top: 25%;
-    left: 25%;
+    top: 50%;
+    left: 50%;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 50%;
+    width: 60%;
     height: auto;
+    padding: 20px;
     opacity: 0;
-    animation: fadeIn 2s forwards;
+    animation: fadeIn 10s forwards;
   }
 
   @keyframes fadeIn {
@@ -26,4 +27,8 @@
       opacity: 1;
       transform: translate(-50%, -50%);
     }
+  }
+  
+  p {
+    text-indent: 2em;
   }

@@ -6,16 +6,16 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutMe />} />
+          <Route path="/about-me" element={<AboutMe />} />
         </Routes>
         <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
