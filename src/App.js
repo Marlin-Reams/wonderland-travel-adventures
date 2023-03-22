@@ -1,15 +1,26 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Home from './components/Home';
+import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      So everytime that I npm run build and npm run deploy I have to update the custom domain
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutMe />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
 export default App;
+
 
 // import logo from './logo.svg';
 // import './App.css';
