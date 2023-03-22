@@ -4,7 +4,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      test test
+      test test <br/>
+      test test test
     </div>
   );
 }
