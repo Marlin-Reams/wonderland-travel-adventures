@@ -1,12 +1,33 @@
+
 .navbar {
-  position: fixed;
+  position: static !important;;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(51, 51, 51, 0.8); /* add opacity to the background color */
-  z-index: 1; /* set the z-index higher than the background */
-  opacity: .6;
+  background-color: rgba(51, 51, 51, 0.8);
+  z-index: 1;
+  opacity: .5;
 }
+
+ .navbar{
+    background-color: #333;
+    color: white;
+    position: absolute !important;
+    top: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .6;
+  }
+
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
 
   .navbar a {
     float: left;

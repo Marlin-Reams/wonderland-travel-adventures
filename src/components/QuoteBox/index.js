@@ -35,13 +35,13 @@ const QuoteBox = () => {
   useEffect(() => {
     const fadeTimeout = setTimeout(() => {
       setFadeType('fade-out');
-    }, 5000);
+    }, 1);
 
     const nextQuoteTimeout = setTimeout(() => {
       setFadeType('fade-in');
       const nextIndex = (quoteIndex + 1) % quotes.length;
       setQuoteIndex(nextIndex);
-    }, 5500);
+    }, 15000);
 
     return () => {
       clearTimeout(fadeTimeout);
