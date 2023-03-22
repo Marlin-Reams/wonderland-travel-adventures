@@ -6,20 +6,17 @@ const AboutMe = () => {
         <div className="about-me-wrapper">
             <div><h2 className="about-me-container">
             <p>
-                My name is Brittany Reams, I am a Wife , Mother of 4, and the Founder of Wonderland Travel Adventures.
+            Welcome to Wonderland Travel Adventures! My name is Brittany Reams and I'm the Founder of this small travel business with a passion for all things Travel and Disney.
             </p>
 
             <p>
-                A small travel business that has a PASSION for all things Travel and Disney! I know how BIG planning a Disney Vacation can be! Whether it’s your Once in a Lifetime Vacation, Special Occasion, or Annual Destination.
+            Planning a Disney vacation can be a daunting task, especially when you want everything to be perfect. That's where I come in! As a Wife and Mother of 4, I know firsthand how important it is to make the most of your Once in a Lifetime Vacation, Special Occasion, or Annual Destination.
             </p>
             <p>
-                You want everything to be as fun and as perfect as it can be! Which can be very stressful to say the least, that’s where I come in! I can help you with setting up as much or as little of your Vacation as you like.
+            I offer a range of services to help take the stress out of planning, including Resort Accommodations, Park tickets, Dining Packages and Reservations, Lighting Lanes, Tours, Extra Magic Events, Transportation, and Itineraries. And if Disney isn’t your cup of tea, no problem! I'm also a Cruise Certified Travel Agent as well as certified with Universals, Sandals Resorts, and Secrets Resorts.
             </p>
             <p>
-            From Resort Accommodations, Park tickets, Dining Packages and Reservations, Fastpasses, Tours, Extra Magic Events, Transportation, to Itineraries. So that you can focus your time on all the magic and memories Disney has to offer.
-            </p>
-            <p>
-            If Disney isn’t your cup of tea that’s ok, I am also a Cruise Certified Travel Agent as well as Universals, Sandals Resorts, and Secrets Resorts. I would love to help you make any and all of your adventure dreams come true. So don’t delay contact me for a free quote!
+            My goal is to help make your adventure dreams come true, so don't delay, contact me for a free quote today!
             </p>
 
             </h2>
