@@ -4,8 +4,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      test test <br/>
-      test test test
+      So everytime that I npm run build and npm run deploy I have to update the custom domain
     </div>
   );
 }
