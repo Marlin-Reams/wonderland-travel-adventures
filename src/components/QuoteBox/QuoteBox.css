@@ -9,7 +9,7 @@
     padding: 5rem;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 15px;
+    border-radius: 35px;
     opacity: 0;
     animation: fadeInOut 15s infinite;
     font-size: 28px;
