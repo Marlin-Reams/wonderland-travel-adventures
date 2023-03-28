@@ -12,3 +12,12 @@
     position: relative;
     top: 50%;
   }
+
+  @media (max-width: 767px) {
+    /* styles for screens smaller than 768px */
+    .bg {
+      width: 100vw;
+      max-width: 915px;
+      margin: 0 auto;
+    }
+  }

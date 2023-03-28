@@ -4,3 +4,27 @@
     width: 100vw;
 
   }
+
+
+  .questions {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #D4AF37, #42d1d1);
+    border-radius: 50px;
+  }
+
+  .button-wrapper{
+    text-align: center;
+
+  }
+
+  .btn-custom{
+
+    background-color: grey !important;
+    border-color: #fff !important
+  }
+
+  .btn-custom:hover {
+    background-color: #00529b !important;
+    border-color: #00529b !important;
+  }

@@ -1,0 +1,43 @@
+.plan-page-wrapper {
+    background-image: url('./plan-trip.jpg');
+    height: 100vh;
+    width: 100vw;
+
+  }
+
+
+.plan-form {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 120px;
+    padding-left: 20px;
+
+  }
+
+
+  .btn{
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 1.25rem;
+  }
+
+  h1{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 50px;
+  }
+
+  input[id="destination"],
+  input[type="date"],
+  input[type="time"],
+  input[id="budget"],
+  input[id="party"],
+  textarea {
+    width: 400px;
+  }
+
+textarea#extras {
+  width: 400px;
+}

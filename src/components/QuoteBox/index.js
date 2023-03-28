@@ -41,7 +41,7 @@ const QuoteBox = () => {
       setFadeType('fade-in');
       const nextIndex = (quoteIndex + 1) % quotes.length;
       setQuoteIndex(nextIndex);
-    }, 15000);
+    }, 10000);
 
     return () => {
       clearTimeout(fadeTimeout);

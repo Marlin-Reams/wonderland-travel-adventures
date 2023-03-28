@@ -97,7 +97,9 @@ const Questions = () => {
 
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Ask your question here" onChange={handleMessageChange}></textarea>
             </div>
+            <div className="button-wrapper">
             <button type="submit" className="btn btn-primary mb-3 btn-custom">Click to Send</button>
+            </div>
             </form>
         </div>
         </div>
