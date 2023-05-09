@@ -2,7 +2,7 @@
     background-image: url('./HomeBG-3.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     z-index: -1;
 
@@ -15,9 +15,9 @@
 
   @media (max-width: 767px) {
     /* styles for screens smaller than 768px */
-    .bg {
-      width: 100vw;
-      max-width: 915px;
-      margin: 0 auto;
+    
+
+    .photo {
+      top: 30%;
     }
   }

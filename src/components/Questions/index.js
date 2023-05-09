@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import emailjs from'emailjs-com'
 
 const Questions = () => {
-    console.log(process.env)
+
 
     const[name, setName] = useState("");
     const[email, setEmail] = useState("");

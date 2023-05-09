@@ -4,11 +4,13 @@ import QuoteBox from '../QuoteBox';
 
 
 
+
+
 function Home() {
   return (
     <div className="bg">
         <QuoteBox />
-        
+
     </div>
   );
 }

@@ -58,13 +58,6 @@
 
   }
 
-  @media (max-width: 767px) {
-    .navbar-brand {
-      position: static;
-      transform: none;
-
-    }
-  }
 
   .logo{
 
@@ -75,4 +68,88 @@
 
   .logo-text {
     font-size: 28px;
+  }
+
+
+  @media (max-width: 1500px){
+    .navbar-nav{
+      /* display: none !important; */
+      font-size: 17px;
+
+
+    }
+    .navbar-brand{
+    font-size: 25px !important;
+
+    }
+
+    .navbar-links.show {
+      display: block;
+    }
+
+    .logo{
+
+      width: 75px;
+      height: 75px;
+      margin: -10px;
+      margin-right: -25px;
+    }
+
+    button.navbar-toggler {
+      margin-left: auto;
+    }
+  }
+
+  @media (max-width: 1200px){
+    /* .navbar-nav{
+      display: none !important;
+    } */
+
+    button.navbar-toggler {
+      margin-left: auto;
+    }
+
+    .navbar-links.show {
+      display: block;
+    }
+  }
+
+  /* this is where i noticed that the navbar getting larger */
+  @media (max-width: 992px) {
+    /* .navbar-brand {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 25px !important;
+    } */
+
+
+
+
+  }
+
+  @media (max-width: 767px) {
+
+    .navbar-brand {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      font-size: 15px !important;
+      text-align: center;
+    }
+
+    .navbar-links {
+      display: none;
+    }
+
+    /* .navbar-toggle {
+      display: block;
+    } */
+
+    .navbar-links.show {
+      display: block !important;
+    }
+
+
   }
