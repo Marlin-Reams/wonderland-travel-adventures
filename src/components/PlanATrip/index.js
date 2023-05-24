@@ -1,7 +1,8 @@
 import React from "react";
 import "./Plan.css";
 import { useRef, useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import 'bootstrap/dist/js/bootstrap.min.js'; // Import Bootstrap JavaScript
 import emailjs from'emailjs-com'
 
 

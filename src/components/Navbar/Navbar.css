@@ -1,155 +1,107 @@
 
-.navbar {
-  position: static !important;;
+
+.navbar{
+  background-color: #333;
+  color: white;
+  position: absolute !important;
   top: 0;
-  left: 0;
   width: 100%;
-  background-color: rgba(51, 51, 51, 0.8);
-  z-index: 1;
-  opacity: .5;
-  font-size: 20px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: .8;
 }
 
- .navbar{
-    background-color: #333;
-    color: white;
-    position: absolute !important;
-    top: 0;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: .6;
-  }
 
-  .container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 20px;
-    text-align: center;
-  }
 
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.logo {
+  display: flex;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+}
 
-  }
+.logo-div {
+  margin-right: auto;
+}
 
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
 
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
+.navbar-brand {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 25px !important;
 
-  .navbar-brand {
-    position: absolute;
+}
+
+.navbar-links {
+
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar-links ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-links li {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+
+
+/*ALL CODE ABOVE THIS LINE WORKS AS INTENDED */
+
+@media (max-width: 420px) {
+  .navbar-brand.logo-text {
+    position: fixed;
+    font-size: 16px !important;
+    top: 25px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 35px !important;
+  }
+
+}
+
+@media (max-width: 300px) {
+  .navbar-brand.logo-text {
+    position: fixed;
+    font-size: 12px !important;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+  }
+
+  .navbar-toggler-icon{
+    width: 15px;
+    height: 25px;
 
   }
 
-
-  .logo{
-
-    width: 100px;
-    height: 100px;
-    margin: -10px
-  }
-
-  .logo-text {
-    font-size: 28px;
-  }
-
-
-  @media (max-width: 1500px){
-    .navbar-nav{
-      /* display: none !important; */
-      font-size: 17px;
-
-
-    }
-    .navbar-brand{
-    font-size: 25px !important;
-
-    }
-
-    .navbar-links.show {
-      display: block;
-    }
-
-    .logo{
-
-      width: 75px;
-      height: 75px;
-      margin: -10px;
-      margin-right: -25px;
-    }
-
-    button.navbar-toggler {
-      margin-left: auto;
-    }
-  }
-
-  @media (max-width: 1200px){
-    /* .navbar-nav{
-      display: none !important;
-    } */
-
-    button.navbar-toggler {
-      margin-left: auto;
-    }
-
-    .navbar-links.show {
-      display: block;
-    }
-  }
-
-  /* this is where i noticed that the navbar getting larger */
-  @media (max-width: 992px) {
-    /* .navbar-brand {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 25px !important;
-    } */
-
-
-
-
-  }
-
-  @media (max-width: 767px) {
-
-    .navbar-brand {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100%;
-      font-size: 15px !important;
-      text-align: center;
-    }
-
-    .navbar-links {
-      display: none;
-    }
-
-    /* .navbar-toggle {
-      display: block;
-    } */
-
-    .navbar-links.show {
-      display: block !important;
-    }
-
-
-  }
+}

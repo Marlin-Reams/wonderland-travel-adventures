@@ -1,4 +1,6 @@
 import './AboutMe.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import 'bootstrap/dist/js/bootstrap.min.js'; // Import Bootstrap JavaScript
 
 
 const AboutMe = () => {
